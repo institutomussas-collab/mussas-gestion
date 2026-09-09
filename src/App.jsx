@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Alumnos from './pages/Alumnos'
+import Alumnas from './pages/Alumnas'
 import Clases from './pages/Clases'
 import Cobros from './pages/Cobros'
 import Caja from './pages/Caja'
@@ -10,7 +10,7 @@ import Stock from './pages/Stock'
 import { Users, Calendar, DollarSign, Wallet, GraduationCap, Sparkles, BarChart3, Package } from 'lucide-react'
 
 export default function App() {
-  const [tab, setTab] = useState('alumnos')
+  const [tab, setTab] = useState('alumnas')
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh', fontFamily: 'system-ui, -apple-system, sans-serif', backgroundColor: '#0d0d0d', color: '#ffffff' }}>
