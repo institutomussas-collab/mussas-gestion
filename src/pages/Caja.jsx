@@ -188,6 +188,7 @@ export default function Caja() {
   return (
     <div style={{ padding: '24px', backgroundColor: '#000000', color: '#ffffff', minHeight: '100vh', fontFamily: 'sans-serif' }}>
       
+      {/* HEADER */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px', flexWrap: 'wrap', gap: '16px' }}>
         <div>
           <h1 style={{ fontSize: '28px', fontWeight: 'bold', margin: 0 }}>
@@ -227,6 +228,7 @@ export default function Caja() {
         </div>
       </div>
 
+      {/* TARJETAS */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px', marginBottom: '24px' }}>
         
         <div style={{ backgroundColor: '#121212', padding: '16px', borderRadius: '12px', border: '1px solid #222' }}>
@@ -275,6 +277,7 @@ export default function Caja() {
 
       </div>
 
+      {/* SECCIÓN ARQUEO Y EGRESOS */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', alignItems: 'start' }}>
         
         <div style={{ backgroundColor: '#121212', borderRadius: '12px', border: '1px solid #222222', padding: '24px' }}>
@@ -391,6 +394,7 @@ export default function Caja() {
 
       </div>
 
+      {/* MODAL EGRESO */}
       {modalEgresoAbierto && (
         <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.85)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000, padding: '16px' }}>
           <div style={{ backgroundColor: '#121212', border: '1px solid #222', borderRadius: '12px', padding: '24px', width: '100%', maxWidth: '450px' }}>
